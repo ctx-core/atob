@@ -2,6 +2,7 @@
 	"name": "@ctx-core/atob",
 	"version": "4.2.25",
 	"description": "ctx-core atob",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
