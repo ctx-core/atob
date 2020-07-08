@@ -2,9 +2,9 @@
 	"name": "@ctx-core/atob",
 	"version": "4.2.32",
 	"description": "ctx-core atob",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
