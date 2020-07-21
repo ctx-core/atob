@@ -35,7 +35,7 @@
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.6"
+		"typescript": "^3.9.7"
 	},
 	"gitHead": "279af15838d8cce7cb673508143f9e4cb04e9aa6"
 }
