@@ -2,10 +2,7 @@
  * atob helper functions
  * @module @ctx-core/atob/lib
  */
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/atob/lib.js'
 export function _Uint32Array__atob(b64) {
-	log(`${logPrefix}|_Uint32Array__atob`)
 	const __ = atob(b64)
 	const { length } = __
 	let Uint32Array__atob = new Uint32Array(length)
