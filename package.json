@@ -1,40 +1,40 @@
 {
-	"name": "@ctx-core/atob",
-	"version": "4.2.42",
-	"description": "ctx-core atob",
-	"keywords": [
-		"ctx-core",
-		"atob"
-	],
-	"homepage": "https://github.com/ctx-core/atob#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/atob/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/atob.git"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"dependencies": {
-		"atob": "^2.1.2",
-		"atob-lite": "^2.0.0"
-	},
-	"devDependencies": {
-		"typescript": "^4.0.2"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "1d674fdcef22ac4223a7a4b7752f2ddc16f519ff"
+  "name": "@ctx-core/atob",
+  "version": "4.2.43",
+  "description": "ctx-core atob",
+  "keywords": [
+    "ctx-core",
+    "atob"
+  ],
+  "homepage": "https://github.com/ctx-core/atob#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/atob/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/atob.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "./node_modules/.bin/tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "atob": "^2.1.2",
+    "atob-lite": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "1d674fdcef22ac4223a7a4b7752f2ddc16f519ff"
 }
