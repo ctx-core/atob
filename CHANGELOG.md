@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 5.0.3
+
+### Patch Changes
+
+- typescript: ^4.0.3 -> ^4.0.5
+
 ## 5.0.2
 
 ### Patch Changes
