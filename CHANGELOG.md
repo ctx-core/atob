@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 6.0.0
+
+### Major Changes
+
+- \_Uint32Array\_\_atob->\_atob_Uint32Array
+
 ## 5.0.5
 
 ### Patch Changes
