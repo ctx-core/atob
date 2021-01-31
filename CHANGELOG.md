@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 7.0.0
+
+### Major Changes
+
+- src directory
+
 ## 6.0.1
 
 ### Patch Changes
