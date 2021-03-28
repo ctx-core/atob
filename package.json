@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "7.0.5",
+	"version": "7.0.6",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -22,7 +22,7 @@
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "./node_modules/.bin/tsc -b",
+		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
