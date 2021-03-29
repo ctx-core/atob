@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 7.0.7
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+
 ## 7.0.6
 
 ### Patch Changes
