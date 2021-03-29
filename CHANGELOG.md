@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 7.0.8
+
+### Patch Changes
+
+- version bump
+
 ## 7.0.7
 
 ### Patch Changes
