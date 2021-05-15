@@ -1,5 +1,5 @@
 import { atob } from './atob'
-export function _atob_Uint32Array(b64) {
+export function _atob_Uint32Array(b64:string) {
 	const __ = atob(b64)
 	const { length } = __
 	let atob_Uint32Array = new Uint32Array(length)

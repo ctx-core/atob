@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 7.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
 ## 7.0.10
 
 ### Patch Changes
