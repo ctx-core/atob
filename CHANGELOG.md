@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 7.1.2
+
+### Patch Changes
+
+- .npmignore: + ~
+
 ## 7.1.1
 
 ### Patch Changes
