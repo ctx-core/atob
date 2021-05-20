@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 7.1.3
+
+### Patch Changes
+
+- ∋ @ctx-core/dom
+
 ## 7.1.2
 
 ### Patch Changes
