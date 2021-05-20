@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 7.1.4
+
+### Patch Changes
+
+- fix: dependencies: @ctx-core/dom,atob-lite
+
 ## 7.1.3
 
 ### Patch Changes
