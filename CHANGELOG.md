@@ -1,5 +1,16 @@
 # @ctx-core/atob
 
+## 7.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.4.0
+
 ## 7.1.5
 
 ### Patch Changes
