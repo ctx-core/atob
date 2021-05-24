@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 7.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.4.1
+
 ## 7.2.0
 
 ### Minor Changes
