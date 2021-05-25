@@ -1,5 +1,16 @@
 # @ctx-core/atob
 
+## 7.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.5.0
+
 ## 7.2.1
 
 ### Patch Changes
