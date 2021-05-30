@@ -1,2 +1,2 @@
-export * from './_atob'
-export * from './_atob_Uint32Array'
+export * from './atob_'
+export * from './atob__uint32_array_'

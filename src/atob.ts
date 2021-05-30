@@ -1,4 +1,4 @@
-import { _atob } from './_atob'
+import { atob_ } from './atob_'
 export function atob(val:any) {
-	return _atob()(val)
+	return atob_()(val)
 }
