@@ -27,7 +27,7 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^9.0.2",
+		"@ctx-core/dom": "workspace:^9.0.3",
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
