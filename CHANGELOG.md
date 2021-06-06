@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 8.0.1
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.9
+
 ## 8.0.0
 
 ### Major Changes

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "8.0.0",
+	"version": "8.0.1",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -21,13 +21,13 @@
 	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
+		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^9.0.8",
+		"@ctx-core/dom": "workspace:^9.0.9",
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
