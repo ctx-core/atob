@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 8.0.2
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.10
+
 ## 8.0.1
 
 ### Patch Changes
