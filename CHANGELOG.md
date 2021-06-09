@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 8.0.3
+
+### Patch Changes
+
+- update dependencies
+
 ## 8.0.2
 
 ### Patch Changes
