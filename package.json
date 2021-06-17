@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "9.0.0",
+	"version": "9.0.1",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -27,11 +27,11 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^10.0.1",
+		"@ctx-core/dom": "workspace:^10.0.2",
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
-		"typescript": "^4.3.2"
+		"typescript": "^4.3.3"
 	},
 	"publishConfig": {
 		"access": "public",
