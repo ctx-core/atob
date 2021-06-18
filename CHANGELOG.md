@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 9.0.2
+
+### Patch Changes
+
+- typescript: ^4.3.3 -> ^4.3.4
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.3
+
 ## 9.0.1
 
 ### Patch Changes
