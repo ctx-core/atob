@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "9.0.5",
+	"version": "9.0.6",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -27,7 +27,7 @@
 		"prepare": "npm run clean && npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^10.0.6",
+		"@ctx-core/dom": "workspace:^10.0.7",
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
