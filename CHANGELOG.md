@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 9.0.7
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.8
+
 ## 9.0.6
 
 ### Patch Changes
