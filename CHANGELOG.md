@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 9.0.8
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.10
+
 ## 9.0.7
 
 ### Patch Changes
