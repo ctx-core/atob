@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 9.0.11
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.15
+
 ## 9.0.10
 
 ### Patch Changes
