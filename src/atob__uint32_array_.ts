@@ -1,4 +1,4 @@
-import { atob } from './atob'
+import { atob } from './atob.js'
 export function atob_Uint32Array_(b64:string) {
 	const str = atob(b64)
 	const { length } = str

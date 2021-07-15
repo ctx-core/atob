@@ -1,4 +1,4 @@
-import { atob } from './atob'
+import { atob } from './atob.js'
 export function atob_():(encoded_data:string)=>string {
 	return atob
 }
