@@ -1,5 +1,16 @@
 # @ctx-core/atob
 
+## 10.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.0
+
 ## 9.0.15
 
 ### Patch Changes
