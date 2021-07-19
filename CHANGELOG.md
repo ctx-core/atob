@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.13
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.14
+
 ## 10.0.12
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "10.0.12",
+	"version": "10.0.13",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -22,7 +22,8 @@
 	"types": "./dist/index.d.ts",
 	"exports": {
 		"require": "./dist/index.cjs",
-		"import": "./dist/index.js"
+		"import": "./dist/index.js",
+		"package.json": "./package.json"
 	},
 	"browser": "./dist/index.browser.js",
 	"scripts": {
@@ -34,7 +35,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.13",
+		"@ctx-core/dom": "workspace:^11.0.14",
 		"atob-lite": "^2.0.0",
 		"esm": "^3.2.25"
 	},
