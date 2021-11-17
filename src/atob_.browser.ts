@@ -1,4 +1,4 @@
-import { atob } from './atob.browser'
+import { atob } from './atob.browser.js'
 export function atob_() {
 	return atob
 }
