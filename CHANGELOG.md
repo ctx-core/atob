@@ -1,5 +1,15 @@
 # @ctx-core/atob
 
+## 10.0.25
+
+### Patch Changes
+
+- typescript: ^4.4.4 -> ^4.5.2
+- @swc/core: ^1.2.108 -> ^1.2.110
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.0.32
+
 ## 10.0.24
 
 ### Patch Changes
