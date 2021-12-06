@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.30
+
+### Patch Changes
+
+- @swc/core: ^1.2.117 -> ^1.2.118
+- Updated dependencies
+  - @ctx-core/dom@11.0.37
+
 ## 10.0.29
 
 ### Patch Changes
