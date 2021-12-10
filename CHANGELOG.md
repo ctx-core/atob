@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.32
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+  - @ctx-core/dom@11.0.40
+
 ## 10.0.31
 
 ### Patch Changes
