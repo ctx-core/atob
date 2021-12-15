@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.33
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/dom@11.0.41
+
 ## 10.0.32
 
 ### Patch Changes
