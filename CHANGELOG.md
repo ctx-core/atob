@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.40
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/dom@11.0.48
+
 ## 10.0.39
 
 ### Patch Changes

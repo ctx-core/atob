@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "10.0.39",
+	"version": "10.0.40",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,7 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.ts",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
 			"browser": "./dist/index.browser.js",
@@ -36,7 +36,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.47",
+		"@ctx-core/dom": "workspace:^11.0.48",
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
