@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.39
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/dom@11.0.47
+
 ## 10.0.38
 
 ### Patch Changes
