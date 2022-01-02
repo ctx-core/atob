@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "10.0.40",
+	"version": "10.0.42",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -17,38 +17,37 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./lib/index.d.ts",
+	"types": "./src/index.d.ts",
 	"exports": {
 		".": {
-			"browser": "./lib/index.browser.js",
-			"node": "./lib/index.js"
+			"browser": "./src/index.browser.js",
+			"node": "./src/index.js"
 		},
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"build": "npm run compile",
-		"clean": "rimraf lib && npm run clean:tsbuildinfo",
-		"clean:tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f lib/**/*.d.ts",
-		"compile": "npm run compile:source && npm run compile:declaration",
-		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
-		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
+		"build": ":",
+		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build"
+		"prepublishOnly": "npm run clean && npm run build && npm run test",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "tsm node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.1.0",
+		"@ctx-core/dom": "workspace:^11.1.2",
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.124",
-		"@types/atob-lite": "^2.0.0",
-		"rimraf": "^3.0.2",
-		"typescript": "next"
+		"c8": "^7.11.0",
+		"check-dts": "^0.6.6",
+		"tsm": "^2.2.1",
+		"typescript": "next",
+		"uvu": "^0.5.2"
 	},
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./lib/index.js"
+	"svelte": "./src/index.js"
 }
