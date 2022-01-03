@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 10.0.43
+
+### Patch Changes
+
+- fix: remove incorrect source map annotation
+
 ## 10.0.42
 
 ### Patch Changes

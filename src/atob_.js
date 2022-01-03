@@ -4,4 +4,3 @@ export const atob_ = ()=>{
 	return atob
 }
 export { atob_ as _atob, }
-//# sourceMappingURL=atob_.js.map
