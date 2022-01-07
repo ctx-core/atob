@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.45
+
+### Patch Changes
+
+- uvu: ^0.5.2 -> ^0.5.3
+- Updated dependencies
+  - @ctx-core/dom@11.1.4
+
 ## 10.0.44
 
 ### Patch Changes
