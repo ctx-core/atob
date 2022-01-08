@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "10.0.45",
+	"version": "10.0.46",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.1.4",
+		"@ctx-core/dom": "workspace:^11.1.5",
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
@@ -49,5 +49,6 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./src/index.js"
+	"svelte": "./src/index.js",
+	"sideEffects": false
 }
