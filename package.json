@@ -35,7 +35,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.1.6",
+		"@ctx-core/dom": "workspace:^11.1.6",
 		"atob-lite": "^2.0.0"
 	},
 	"devDependencies": {
