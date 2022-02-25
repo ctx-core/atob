@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 10.0.48
+
+### Patch Changes
+
+- version bump
+
 ## 10.0.47
 
 ### Patch Changes
