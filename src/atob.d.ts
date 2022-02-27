@@ -1,2 +1,1 @@
-import atob from 'atob-lite'
-export { atob }
+export declare function atob(encodedData:string):string;
