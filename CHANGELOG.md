@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.53
+
+### Patch Changes
+
+- @ctx-core/array: 26.2.0
+- Updated dependencies
+  - @ctx-core/dom@11.1.13
+
 ## 10.0.52
 
 ### Patch Changes
