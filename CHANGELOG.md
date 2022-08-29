@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.0.58
+
+### Patch Changes
+
+- tsx: ^3.8.2 -> ^3.9.0
+- Updated dependencies
+  - @ctx-core/dom@11.1.27
+
 ## 10.0.57
 
 ### Patch Changes
