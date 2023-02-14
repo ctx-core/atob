@@ -1,5 +1,5 @@
-import { atob } from './atob.js'
-/** @type {import('./atob_Uint32Array_.d.ts').atob_Uint32Array_} */
+import { atob } from '../atob/index.js'
+/** @type {typeof import('./index.d.ts').atob_Uint32Array_} */
 export const atob_Uint32Array_ = (b64)=>{
 	const str = atob(b64)
 	const { length } = str
@@ -10,4 +10,7 @@ export const atob_Uint32Array_ = (b64)=>{
 	}
 	return atob_Uint32Array
 }
-export { atob_Uint32Array_ as _atob_Uint32Array, atob_Uint32Array_ as _Uint32Array__atob, }
+export {
+	atob_Uint32Array_ as _atob_Uint32Array,
+	atob_Uint32Array_ as _Uint32Array__atob,
+}

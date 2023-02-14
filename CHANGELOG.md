@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 10.1.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 10.0.96
 
 ### Patch Changes
