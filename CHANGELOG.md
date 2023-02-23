@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 10.1.18
+
+### Patch Changes
+
+- @ctx-core/dom: ^11.4.13 -> ^11.4.14
+
 ## 10.1.17
 
 ### Patch Changes
