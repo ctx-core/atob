@@ -1,5 +1,13 @@
 # @ctx-core/atob
 
+## 10.1.94
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/dom@14.1.31
+
 ## 10.1.93
 
 ### Patch Changes
