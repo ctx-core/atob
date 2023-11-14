@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "10.2.3",
+	"version": "10.2.4",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -18,7 +18,9 @@
 	"author": "Brian Takita",
 	"type": "module",
 	"files": [
-		"*.d.ts"
+		"*.d.ts",
+		"*.js",
+		"*.json"
 	],
 	"types": "./index.d.ts",
 	"exports": {

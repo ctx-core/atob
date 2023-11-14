@@ -1,5 +1,15 @@
 # @ctx-core/atob
 
+## 10.2.4
+
+### Patch Changes
+
+- package.json: files:
+
+      *.d.ts
+      *.js
+      *.json
+
 ## 10.2.3
 
 ### Patch Changes
