@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 10.2.25
+
+### Patch Changes
+
+- tsx: ^4.3.0 -> ^4.4.0
+
 ## 10.2.24
 
 ### Patch Changes
