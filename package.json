@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "10.2.59",
+	"version": "10.2.60",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -41,7 +41,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"ctx-core": "^5.2.2"
+		"ctx-core": "^5.2.3"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
