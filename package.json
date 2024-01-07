@@ -45,7 +45,7 @@
 		"ctx-core": "^5.13.0"
 	},
 	"devDependencies": {
-		"c8": "^8.0.1",
+		"c8": "^9.0.0",
 		"check-dts": "^0.7.2",
 		"tsx": "^4.7.0",
 		"typescript": "next",
