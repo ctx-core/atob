@@ -1,5 +1,11 @@
 # @ctx-core/atob
 
+## 10.2.93
+
+### Patch Changes
+
+- ctx-core: ^5.19.2 -> ^5.20.0
+
 ## 10.2.92
 
 ### Patch Changes
