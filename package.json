@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/atob",
-	"version": "10.2.205",
+	"version": "10.2.206",
 	"description": "ctx-core atob",
 	"keywords": [
 		"ctx-core",
@@ -49,9 +49,9 @@
 		"ctx-core": "*"
 	},
 	"devDependencies": {
-		"c8": "^10.1.3",
-		"check-dts": "^0.8.2",
-		"tsx": "^4.20.6",
+		"c8": "^11.0.0",
+		"check-dts": "^0.9.0",
+		"tsx": "^4.21.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
